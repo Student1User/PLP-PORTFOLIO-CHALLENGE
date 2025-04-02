@@ -1,15 +1,4 @@
-Thought for 4 seconds### Modern Tech Portfolio
 
-
-
-
-
-[
-
-](https://app.netlify.com/sites/your-site-name/deploys)
-[
-
-](https://github.com/yourusername/modern-tech-portfolio)
 
 A cutting-edge, cyberpunk-inspired portfolio website built with HTML, CSS, and JavaScript. This portfolio features a futuristic design with interactive elements, animations, and a responsive layout to showcase your skills and projects in a visually stunning way.
 
