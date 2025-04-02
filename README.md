@@ -1,7 +1,4 @@
-# PLP-PORTFOLIO-CHALLENGE
-
-
-Thought for 1 second### Modern Tech Portfolio
+Thought for 4 seconds### Modern Tech Portfolio
 
 
 
@@ -57,15 +54,24 @@ This project is deployed and available at:
 ## 📋 Project Structure
 
 ```plaintext
-portfolio/
+PORTFOLIO-CHALLENGE/
 ├── index.html              # Main HTML file
 ├── styles.css              # Main CSS file with all styles
-├── images/                 # Directory for all images
-│   ├── profile.jpg         # Profile image
-│   ├── certificates/       # Certificate images
-│   ├── projects/           # Project screenshots
-│   └── ...
-└── README.md               # Project documentation
+├── vscode/                 # VS Code configuration folder
+├── ALX Essentials.png      # ALX branding image
+├── Emmanuel M. Jesse CV.pdf # CV/Resume file
+├── EmmanuelMagachi Jesse-Networking... # Networking certification files
+├── EV1.png                 # Project/section image
+├── EV2.png                 # Project/section image
+├── ev6.png                 # Project/section image
+├── Networking_Basics_Badge... # Certification badge images
+├── S1.png                  # Section image
+├── S2.png                  # Section image
+├── S4.png                  # Section image
+├── V1.png                  # Visual element image
+├── V2.png                  # Visual element image
+├── V3.png                  # Visual element image
+└── vic.jpg                 # Profile/avatar image
 ```
 
 ## 🔧 Installation & Setup
@@ -124,8 +130,14 @@ npx serve
 
 2. **Profile Image**
 
-1. Replace the image at `/images/profile.jpg` with your own photo
+1. Replace `vic.jpg` with your own photo
 2. Maintain the same aspect ratio for best results
+
+
+
+3. **Resume/CV**
+
+1. Replace `Emmanuel M. Jesse CV.pdf` with your own CV file
 
 
 
@@ -156,88 +168,31 @@ npx serve
 
 
 
-### Adding Projects
+### Updating Project Images
 
-1. **Project Structure**
+1. **Project Images**
 
-1. Locate the Projects section in `index.html`
-2. Each project is contained within a `<div class="project-slide">` element
-3. Copy an existing project slide and modify its content
-
+1. Replace the existing image files (EV1.png, EV2.png, etc.) with your own project screenshots
+2. Keep the same file names or update the references in the HTML file
 
 
-2. **Project Example**
 
-```html
-<div class="project-slide">
-  <div class="project-card cyber-glass">
-    <div class="project-image">
-      <div class="image-slideshow">
-        <div class="slideshow-wrapper">
-          <div class="slide">
-            <img src="images/projects/project-name-1.jpg" alt="Project Name" loading="lazy">
-          </div>
-          <!-- Add more slides as needed -->
-        </div>
-      </div>
-      <div class="project-tags">
-        <span class="project-tag">React</span>
-        <span class="project-tag">Node.js</span>
-        <!-- Add more tags as needed -->
-      </div>
-    </div>
-    <div class="project-content">
-      <h3 class="project-title">Project Name</h3>
-      <p class="project-description">
-        Detailed description of your project goes here.
-      </p>
-      <!-- Features and link -->
-    </div>
-  </div>
-</div>
-```
+2. **Section Images**
 
-
-3. **Update Navigation**
-
-1. If adding a new project slide, add a corresponding navigation button in the `.slideshow-nav` section
+1. Replace section background images (S1.png, S2.png, etc.) as needed
+2. Maintain similar dimensions for consistent layout
 
 
 
 
 
-### Adding Certificates
+### Updating Certificates
 
-1. **Certificate Structure**
+1. **Certificate Files**
 
-1. Locate the Certificates section in `index.html`
-2. Each certificate is contained within a `<div class="certificate-card cyber-glass">` element
-3. Copy an existing certificate card and modify its content
+1. Replace the existing certification files with your own achievements
+2. Update the references in the HTML file to point to your new files
 
-
-
-2. **Certificate Example**
-
-```html
-<div class="certificate-card cyber-glass reveal-item">
-  <div class="certificate-image">
-    <div class="cyber-frame">
-      <img src="images/certificates/certificate-name.jpg" alt="Certificate Name" loading="lazy">
-      <!-- Cyber corners -->
-    </div>
-  </div>
-  <div class="certificate-content">
-    <h3 class="certificate-title">Certificate Name</h3>
-    <div class="certificate-issuer">
-      <!-- Issuer information -->
-    </div>
-    <p class="certificate-description">
-      Description of the certificate and what it covers.
-    </p>
-    <!-- Skills and date -->
-  </div>
-</div>
-```
 
 
 
@@ -273,33 +228,22 @@ This project is currently deployed to:
 
 ### Netlify Deployment
 
-This project uses Netlify for hosting with the following features:
-
-- Continuous deployment from the GitHub repository
-- Automatic builds when changes are pushed to the main branch
-- Custom domain configuration
-- Form handling for the contact form
-- Deploy previews for pull requests
-
-
 To deploy your own version to Netlify:
 
-1. Fork this repository to your GitHub account
-2. Sign up or log in to [Netlify](https://www.netlify.com/)
-3. Click "New site from Git" and select your GitHub repository
-4. Configure build settings (not required for this static site)
-5. Click "Deploy site"
-6. (Optional) Configure a custom domain in the Netlify settings
+1. Create a Netlify account if you don't have one
+2. Click "New site from Git" and connect to your GitHub repository
+3. Configure the build settings (not required for this static site)
+4. Click "Deploy site"
+5. (Optional) Configure a custom domain in the Netlify settings
 
 
-### GitHub Repository
+### Manual Deployment
 
-The GitHub repository serves as:
+If you prefer to deploy manually:
 
-- Version control for all code changes
-- Collaboration platform for contributors
-- Source for Netlify's continuous deployment
-- Documentation hub with this README
+1. Ensure all files are in the correct structure
+2. Upload all files to your web hosting service
+3. Make sure `index.html` is set as the default document
 
 
 ## ⚙️ Performance Optimization
@@ -367,6 +311,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) and [Syne](https://fonts.google.com/specimen/Syne) fonts from Google Fonts
 - [Netlify](https://www.netlify.com/) for hosting and deployment
 - [GitHub](https://github.com/) for version control and code hosting
+- [ALX Africa](https://www.alxafrica.com/) for educational resources
 
 
 ---
@@ -385,19 +330,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-### Skills Section
+Skills Section
 
 
 
 
 
-### Projects Section
+Projects Section
+
+![image](https://github.com/user-attachments/assets/acd3b640-ee87-40ef-a90c-b0efd5a6c2ff)
 
 
 
 
 
-### Contact Section
+ Contact Section
+
+![image](https://github.com/user-attachments/assets/78ca5e33-4a16-4e33-970a-91a8e17e5fc9)
+
+![image](https://github.com/user-attachments/assets/3d3bc203-cf76-4e61-a9b6-a93cdeb55063)
 
 
 
@@ -405,4 +356,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by `<a href="https://github.com/yourusername">`Your Name`</a>`
+Made with ❤️ by `<a href="https://github.com/Student1User">`Emmanuel M. Jesse`</a>`
