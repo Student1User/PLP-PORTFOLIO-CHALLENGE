@@ -6,7 +6,7 @@ A cutting-edge, cyberpunk-inspired portfolio website built with HTML, CSS, and J
 
 This project is deployed and available at:
 
-- **Netlify**: [https://your-portfolio-name.netlify.app](https://your-portfolio-name.netlify.app)
+- **Netlify**: [https://your-portfolio-name.netlify.app](https://ejmdevportfolio.netlify.app/)
 - **GitHub Repository**: [https://github.com/yourusername/modern-tech-portfolio](https://github.com/yourusername/modern-tech-portfolio)
 
 
