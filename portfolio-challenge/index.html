@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Magachi Jesse - Tech Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="min-h-screen">
+    <!-- Circuit Pattern Background -->
+    <div class="circuit-pattern"></div>
+    
+    <!-- Section Indicator -->
+    <div class="section-indicator">
+      <div class="indicator-dot" data-section="hero"></div>
+      <div class="indicator-dot" data-section="about"></div>
+      <div class="indicator-dot" data-section="skills"></div>
+      <div class="indicator-dot" data-section="projects"></div>
+      <div class="indicator-dot" data-section="certificates"></div>
+      <div class="indicator-dot" data-section="testimonials"></div>
+      <div class="indicator-dot" data-section="contact"></div>
+    </div>
+    
+ <!-- Theme Toggle -->
+ <input type="checkbox" id="theme-toggle" class="theme-toggle">
+ <label for="theme-toggle" class="theme-toggle-label" aria-label="Toggle dark mode">
+   <svg class="sun-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M12 1V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M12 21V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M1 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M21 12H23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
+   <svg class="moon-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
+ </label>
+    
+    <!-- Custom Cursor (CSS-only) -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+    
+    <!-- Floating Tech Bot (CSS-only) -->
+    <div class="tech-bot">
+      <div class="bot-head">
+        <div class="bot-eye left"></div>
+        <div class="bot-eye right"></div>
+        <div class="bot-antenna"></div>
+      </div>
+      <div class="bot-body">
+        <div class="bot-light"></div>
+      </div>
+      <div class="speech-bubble">
+        <p>Hello! I'm Emmanuel's digital assistant. Explore his work!</p>
+      </div>
+    </div>
+    
+    <!-- Particle Background (CSS-only) -->
+    <div class="particles-container">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    
+    <!-- Header/Navigation -->
+    <header class="sticky-header cyber-glass">
+      <div class="container">
+        <a href="#" class="logo glitch" data-text="John Doe">Emmanuel M Jesse</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" title="Toggle navigation menu">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section with Parallax -->
+    <section id="hero" class="hero cyber-bg section-with-indicator" data-section="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-gradient"></div>
+      
+      <!-- Animated background elements -->
+      <div class="hero-animated-bg">
+        <div class="cyber-cube"></div>
+        <div class="cyber-cube"></div>
+        <div class="cyber-cube"></div>
+      </div>
+      
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="hero-title-container">
+            <h1>
+              <span class="hero-subtitle">Hi, I'm</span>
+              <span class="gradient-text glitch-text" data-text="John Doe">Emmanuel M Jesse</span>
+            </h1>
+          </div>
+          <div class="hero-roles">
+            <div class="roles-wrapper">
+              <span class="role">Full Stack Developer</span>
+              <span class="role">UI/UX Designer</span>
+              <span class="role">AI Enthusiast</span>
+              <span class="role">Problem Solver</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary cyber-btn">
+              <span></span><span></span><span></span><span></span>
+              Contact Me
+            </a>
+            <a href="#projects" class="btn btn-outline cyber-btn-outline" title="View Projects">
+              <span></span><span></span><span></span><span></span>
+              View Projects
+            </a>
+          </a>
+          <a href="Emmanuel M. Jesse CV.pdf" download class="btn btn-outline cyber-btn-outline">
+            <span></span><span></span><span></span><span></span>
+            Download CV
+        </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image cyber-frame">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-23%20at%2021.34.52_1be66757.jpg-zTEiYeAZjoSNUuez00gyJ0ppQ2vnqF.jpeg" alt="John Doe" loading="lazy">
+            <div class="image-overlay"></div>
+            <div class="cyber-corner top-left"></div>
+            <div class="cyber-corner top-right"></div>
+            <div class="cyber-corner bottom-left"></div>
+            <div class="cyber-corner bottom-right"></div>
+          </div>
+          <!-- Floating Icons -->
+          <div class="floating-tech-icons">
+            <div class="tech-icon html">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.08 0L4.632 5.11H19.343L19.099 7.694H4.396L3.94 12.803H18.651L18.198 16.87L12.089 18.426L6.447 16.87L6.79 13.647H1.68L1 19.936L11.636 22.979L23 19.936L24 0H5.08Z" fill="#E44D26"/>
+              </svg>
+            </div>
+            <div class="tech-icon css">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.08 0L4.632 5.11H19.343L19.099 7.694H4.396L3.94 12.803H18.651L18.198 16.87L12.089 18.426L6.447 16.87L6.79 13.647H1.68L1 19.936L11.636 22.979L23 19.936L24 0H5.08Z" fill="#1572B6"/>
+              </svg>
+            </div>
+            <div class="tech-icon js">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H24V24H0V0Z" fill="#F7DF1E"/>
+                <path d="M6.421 20.177L8.337 19.018C8.743 19.759 9.113 20.371 9.937 20.371C10.725 20.371 11.224 20.048 11.224 18.783V11.061H13.604V18.814C13.604 21.376 12.052 22.517 10.031 22.517C8.212 22.517 7.066 21.531 6.421 20.177Z" fill="black"/>
+                <path d="M14.823 19.921L16.739 18.814C17.29 19.759 18.003 20.436 19.148 20.436C20.114 20.436 20.742 19.921 20.742 19.212C20.742 18.361 20.081 18.037 18.973 17.522L18.361 17.231C16.633 16.456 15.486 15.47 15.486 13.456C15.486 11.607 16.924 10.169 19.051 10.169C20.613 10.169 21.728 10.716 22.505 12.178L20.678 13.359C20.226 12.534 19.742 12.21 19.051 12.21C18.344 12.21 17.86 12.695 17.86 13.359C17.86 14.177 18.344 14.501 19.375 14.97L19.987 15.261C22.019 16.165 23.166 17.116 23.166 19.179C23.166 21.376 21.437 22.549 19.213 22.549C17.05 22.549 15.551 21.531 14.823 19.921Z" fill="black"/>
+              </svg>
+            </div>
+            <div class="tech-icon react">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 13.5C12.8284 13.5 13.5 12.8284 13.5 12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12C10.5 12.8284 11.1716 13.5 12 13.5Z" fill="#61DAFB"/>
+                <path d="M12 15.5C14.2091 15.5 16 13.9853 16 12C16 10.0147 14.2091 8.5 12 8.5C9.79086 8.5 8 10.0147 8 12C8 13.9853 9.79086 15.5 12 15.5Z" stroke="#61DAFB"/>
+                <path d="M12 17.5C16.4183 17.5 20 15.0899 20 12C20 8.91015 16.4183 6.5 12 6.5C7.58172 6.5 4 8.91015 4 12C4 15.0899 7.58172 17.5 12 17.5Z" stroke="#61DAFB"/>
+                <path d="M12 19.5C18.6274 19.5 24 16.0899 24 12C24 7.91015 18.6274 4.5 12 4.5C5.37258 4.5 0 7.91015 0 12C0 16.0899 5.37258 19.5 12 19.5Z" stroke="#61DAFB"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tech Grid Background -->
+      <div class="tech-grid">
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line horizontal"></div>
+        <div class="grid-line vertical"></div>
+        <div class="grid-line vertical"></div>
+        <div class="grid-line vertical"></div>
+      </div>
+      
+  
+
+    <!-- About Section -->
+    <section id="about" class="section bg-dark section-with-indicator" data-section="about">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image about-bg-image"></div>
+      <div class="cyber-circle circle-1"></div>
+      <div class="cyber-circle circle-2"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">About Me<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="about-container">
+          <!-- Added image placeholder on the left -->
+          <div class="about-image-container reveal-left">
+            <div class="about-image-wrapper cyber-frame">
+              <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-02-23%20at%2021.34.52_1be66757.jpg-zTEiYeAZjoSNUuez00gyJ0ppQ2vnqF.jpeg" alt="John Doe" class="about-image" loading="lazy">
+              <div class="cyber-corner top-left"></div>
+              <div class="cyber-corner top-right"></div>
+              <div class="cyber-corner bottom-left"></div>
+              <div class="cyber-corner bottom-right"></div>
+            </div>
+            <div class="floating-dots dot-1"></div>
+            <div class="floating-dots dot-2"></div>
+            <div class="floating-dots dot-3"></div>
+            
+            <!-- Animated Code Snippet -->
+            <div class="code-snippet cyber-glass">
+              <div class="code-header">
+                <span class="code-dot"></span>
+                <span class="code-dot"></span>
+                <span class="code-dot"></span>
+                <span class="code-title">developer.js</span>
+              </div>
+              <pre><code>
+<span class="code-keyword">function</span> <span class="code-function">createAwesomeStuff</span>() {
+  <span class="code-keyword">const</span> <span class="code-variable">passion</span> = <span class="code-boolean">true</span>;
+  <span class="code-keyword">const</span> <span class="code-variable">skills</span> = [
+    <span class="code-string">'HTML'</span>, <span class="code-string">'CSS'</span>, <span class="code-string">'JavaScript'</span>,
+    <span class="code-string">'React'</span>, <span class="code-string">'Node.js'</span>
+  ];
+  
+  <span class="code-keyword">return</span> <span class="code-variable">passion</span> ? 
+    <span class="code-string">'Amazing Results'</span> : 
+    <span class="code-string">'Try Again'</span>;
+}
+              </code></pre>
+            </div>
+          </div>
+          
+          <div class="about-content reveal-right">
+            <p class="fade-in delay-300">
+              Hey there! I’m Emmanuel Jesse, a creative and passionate web developer driven by the art of building sleek, functional, and user-friendly web experiences. I specialize in crafting responsive websites and applications that not only look great but also deliver real value.            </p>
+            <p class="fade-in delay-600">
+              With a strong grasp of both front-end and back-end technologies, I enjoy turning ideas into reality through clean, efficient, and scalable code. I’m always exploring new trends and tools to stay ahead and bring fresh, innovative solutions to every project I touch.
+
+            </p>
+            
+            <!-- Added personal mission and values -->
+            <div class="mission-values cyber-glass">
+              <h3><span class="accent-text">&lt;</span> Education Background <span class="accent-text">/&gt;</span></h3>
+              <p><h1>PLP Academy – Software Development Program</h1><br>
+              <h2>Present</h2><br>
+                I am currently enrolled at PLP Academy, undertaking a Software Development Program aimed at sharpening my skills in full-stack development, problem-solving, and project-based learning. This program is helping me advance my technical expertise in backend and frontend development, databases, and software engineering best practices, while collaborating with peers on real-world tech projects.</p>
+              <p><h1>Cisco Networking Academy</h1><br>
+                <h2>2023 – Present</h2><br>
+                I have been actively enrolled in various programs offered by the Cisco Networking Academy and continue to pursue certifications. Through this platform, I have gained practical knowledge and certifications in networking fundamentals, cybersecurity, and IT essentials. These certifications have strengthened my understanding of network infrastructure, network security, and troubleshooting, further enhancing my technical skillset.</p>
+                <p>Jomo Kenyatta University of Agriculture and Technology (JKUAT)<br>
+                  2023 – 2024<br>
+                  I pursued a Diploma in Information Technology at JKUAT. This program exposed me to various aspects of the tech industry, including software development, networking, databases, and emerging technologies. Through hands-on projects and coursework, I developed strong problem-solving and technical skills. My final-year project involved developing a fully functional e-commerce website, which deepened my expertise in web development, UI/UX design, and system implementation.</p>
+                  <p><h1>ALX Africa – AI Career Essentials (AiCE) Program</h1><br>
+                    <h2>2024</h2><br>
+                    I successfully completed the ALX Africa AI Career Essentials (AiCE) program, a specialized course designed to equip learners with foundational skills in Artificial Intelligence and Machine Learning. This program introduced me to key concepts in AI, data analysis, problem-solving using AI tools, and the ethical use of AI technologies. It enhanced my ability to integrate AI-driven solutions into real-world projects and prepared me for future career opportunities in the AI and tech space.</p>
+                    <p><h1>DOM Institute School of Strategic Planning</h1><br>
+                      <h2>2023</h2><br>
+                      At DOM Institute, I specialized in project management, organizational strategy, and digital transformation. This program provided me with essential skills in strategic planning, leadership, and aligning technology with business objectives. I gained valuable insights into how technology-driven decisions impact businesses and how to implement effective solutions for organizational growth.</p>
+              <h3><span class="accent-text">&lt;</span> Core Values <span class="accent-text">/&gt;</h3>
+              <ul class="values-list">
+                <li><span class="value-tag">Continuous Learning</span> - Technology evolves rapidly, and so should we</li>
+                <li><span class="value-tag">User-Centric Design</span> - The end user is always the priority</li>
+                <li><span class="value-tag">Code Quality</span> - Clean, maintainable code is non-negotiable</li>
+                <li><span class="value-tag">Collaboration</span> - Great products come from great teamwork</li>
+              </ul>
+            </div>
+            
+            <p class="fade-in delay-900">
+              When I'm not coding, you can find me exploring emerging technologies, contributing to open-source projects, and staying updated with the latest tech trends.
+            </p>
+            
+            <!-- CSS-only animated stats -->
+            <div class="stats-container">
+              <div class="stat-item cyber-glass">
+                <div class="stat-circle">
+                  <div class="stat-circle-inner">
+                    <div class="stat-number">50+</div>
+                  </div>
+                  <svg class="stat-circle-svg" viewBox="0 0 36 36">
+                    <path class="stat-circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="100, 100"/>
+                    <path class="stat-circle-progress"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="90, 100"/>
+                  </svg>
+                </div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-item cyber-glass">
+                <div class="stat-circle">
+                  <div class="stat-circle-inner">
+                    <div class="stat-number">15+</div>
+                  </div>
+                  <svg class="stat-circle-svg" viewBox="0 0 36 36">
+                    <path class="stat-circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="100, 100"/>
+                    <path class="stat-circle-progress"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="75, 100"/>
+                  </svg>
+                </div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="stat-item cyber-glass">
+                <div class="stat-circle">
+                  <div class="stat-circle-inner">
+                    <div class="stat-number">5+</div>
+                  </div>
+                  <svg class="stat-circle-svg" viewBox="0 0 36 36">
+                    <path class="stat-circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="100, 100"/>
+                    <path class="stat-circle-progress"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      fill="none" stroke-width="3" stroke-dasharray="60, 100"/>
+                  </svg>
+                </div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+   
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light section-with-indicator" data-section="skills">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image bg-skills"></div>
+      <div class="blob-bg blob-bg-1"></div>
+      <div class="blob-bg blob-bg-2"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">Tech Stack/ Interests<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        
+        <!-- Skill Categories -->
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-card reveal-left cyber-glass">
+            <h3 class="skill-category">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Frontend Development
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item" data-skill="95">
+                <div class="skill-header">
+                  <span>HTML5 & CSS3 & TailwindCSS & Bootstrap</span>
+                  <span class="skill-percentage">98%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="95, 100"/>
+                    </svg>
+                    <div class="percentage">98%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="90">
+                <div class="skill-header">
+                  <span>JavaScript(ES6+) & React & Nextjs</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 o 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="90, 100"/>
+                    </svg>
+                    <div class="percentage">90%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="85">
+                <div class="skill-header">
+                  <span>JQuery</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 o 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 o 0 0 1 0 31.831
+                          a 15.9155 15.9155 o 0 0 1  2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="85, 100"/>
+                    </svg>
+                    <div class="percentage">85%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Backend -->
+          <div class="skill-card reveal-right cyber-glass">
+            <h3 class="skill-category">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+              </svg>
+              Backend Development
+            </h3>
+            <div class="skill-list">
+              <div class="skill-item" data-skill="85">
+                <div class="skill-header">
+                  <span>Node.js & Expressjs </span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="85, 100"/>
+                    </svg>
+                    <div class="percentage">85%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="80">
+                <div class="skill-header">
+                  <span>PHP & Laravel</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="80, 100"/>
+                    </svg>
+                    <div class="percentage">80%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="75">
+                <div class="skill-header">
+                  <span>Python & Django </span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="circular-progress">
+                  <div class="circular-progress-inner">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                      <path class="circle-bg"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="100, 100"/>
+                      <path class="circle"
+                        d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                        fill="none" stroke-width="2" stroke-dasharray="75, 100"/>
+                    </svg>
+                    <div class="percentage">85%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Additional Skills -->
+        <div class="additional-skills reveal-bottom">
+          <div class="skill-tag cyber-pill">Git & GitHub</div>
+          <div class="skill-tag cyber-pill">Web Development & Design</div>
+          <div class="skill-tag cyber-pill">Server Deployment & Hosting: Vercel, Netlify, Heroku, cPanel</div>
+          <div class="skill-tag cyber-pill">Database Management: SQL (MySQL, PostgreSQL), NoSQL (MongoDB, Firebase)</div>
+          <div class="skill-tag cyber-pill">CSS Frameworks: Tailwind CSS, Bootstrap, Sass/SCSS </div>
+          <div class="skill-tag cyber-pill">UI/UX Design</div>
+          <div class="skill-tag cyber-pill">Authentication & Authorization: JWT, OAuth, Passport.js</div>
+          <div class="skill-tag cyber-pill">Server-Side Languages: Node.js, PHP, Python</div>
+
+
+
+
+        </div>
+      </div>
+      
+   
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-dark section-with-indicator" data-section="projects">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image"></div>
+      <div class="bg-shape shape-top-right"></div>
+      <div class="bg-shape shape-bottom-left"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">Projects<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        
+        <!-- CSS-only Project Carousel -->
+        <div class="project-slideshow-container reveal-bottom">
+          <!-- Project Slides -->
+          <input type="radio" name="project-radio" id="project1" checked>
+          <label for="project1" class="visually-hidden">Project 1</label>
+          <input type="radio" name="project-radio" id="project2">
+          <label for="project2" class="visually-hidden">Project 2</label>
+          <input type="radio" name="project-radio" id="project3">
+          <label for="project3" class="visually-hidden">Project 3</label>
+          
+          <div class="project-slides">
+            <!-- Project 1 -->
+            <div class="project-slide">
+              <div class="project-card cyber-glass">
+                <div class="project-image">
+                  <!-- CSS-only slideshow for project 1 -->
+                  <div class="image-slideshow">
+                    <div class="slideshow-wrapper">
+                      <div class="slide">
+                        <img src="S1.png" alt="E-commerce Website" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="S2.png" alt="E-commerce Website" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="S4.png" alt="E-commerce Website" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">TypeScript</span>
+                    <span class="project-tag">TailwindCSS</span>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title"> E-commerce Website</h3>
+                  <p class="project-description">
+                    A fully-featured e-commerce demo platform built with React, TypeScript, and Tailwind CSS, showcasing modern UI/UX, product browsing, cart functionality, user authentication, and an admin dashboard with sales analytics. This project demonstrates the core capabilities of a complete, responsive, and scalable e-commerce solution.
+                  <div class="project-features">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Online Shopping</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Online Store</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Shopping Easy</span>
+                    </div>
+                  </div>
+                  <a href="https://ecommercestorek.netlify.app/" class="project-link cyber-link">
+                    View Project
+                    <svg xmlns="https://ecommercestorek.netlify.app/" class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-slide">
+              <div class="project-card cyber-glass">
+                <div class="project-image">
+                  <!-- CSS-only slideshow for project 2 -->
+                  <div class="image-slideshow">
+                    <div class="slideshow-wrapper">
+                      <div class="slide">
+                        <img src="EV1.png" alt="Home Page" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="EV2.png" alt="Event Booking" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="ev6.png" alt="Ticket" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">TypeScript</span>
+                    <span class="project-tag">TailwindCSS</span>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title">Eventika Kenya</h3>
+                  <p class="project-description">
+                    Eventika Kenya is a modern event ticketing platform built with React, TypeScript, and Tailwind CSS. It allows users to browse events, purchase tickets securely, and manage bookings with ease. The demo version showcases key features like event discovery, digital ticket management, and multiple payment options (M-Pesa, Airtel Money, Google Pay) with a responsive, user-friendly interface.
+                  </p>
+                  <div class="project-features">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>ticketing</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Event Booking</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Event management</span>
+                    </div>
+                  </div>
+                  <a href="https://eventikakenya.netlify.app/" class="project-link cyber-link">
+                    View Project
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-slide">
+              <div class="project-card cyber-glass">
+                <div class="project-image">
+                  <!-- CSS-only slideshow for project 3 -->
+                  <div class="image-slideshow">
+                    <div class="slideshow-wrapper">
+                      <div class="slide">
+                        <img src="V1.png" alt="Augmented Weather" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="V2.png" alt="Augmented Weather" loading="lazy">
+                      </div>
+                      <div class="slide">
+                        <img src="V3.png" alt="Augmented Weather" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-tags">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">Bootstrap</span>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title">Villa Estate</h3>
+                  <p class="project-description">
+                    Villa Estate is a modern real estate website demo showcasing luxury properties and villas, built with HTML, CSS, and Bootstrap. It features elegant property listings, an intuitive layout, and a contact section for inquiries—perfect for real estate professionals looking to establish an online presence.
+                  </p>
+                  <div class="project-features">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Easy House Hunting</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Book a Visit</span>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span>Easy House Management </span>
+                    </div>
+                  </div>
+                  <a href="https://villaestates.netlify.app/" class="project-link cyber-link">
+                    View Project
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slideshow Navigation -->
+          <div class="slideshow-nav">
+            <label for="project1" class="nav-btn"></label>
+            <label for="project2" class="nav-btn"></label>
+            <label for="project3" class="nav-btn"></label>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section bg-light section-with-indicator" data-section="certificates">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image certificates-bg"></div>
+      <div class="cyber-circle circle-1"></div>
+      <div class="cyber-circle circle-2"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">Certifications<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        
+        <div class="certificates-container">
+          <!-- Certificate 1 -->
+          <div class="certificate-card cyber-glass reveal-item">
+            <div class="certificate-image">
+              <div class="cyber-frame">
+                <img src="ALX Essentials.png" alt="ALX AI Career Essentials Certificate" loading="lazy">
+                <div class="cyber-corner top-left"></div>
+                <div class="cyber-corner top-right"></div>
+                <div class="cyber-corner bottom-left"></div>
+                <div class="cyber-corner bottom-right"></div>
+              </div>
+            </div>
+            <div class="certificate-content">
+              <h3 class="certificate-title">ALX AI Career Essentials Certificate</h3>
+              <div class="certificate-issuer">
+                <span class="issuer-logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <span>ALX Africa </span>
+              </div>
+              <p class="certificate-description">
+                Earned for successfully completing an intensive 8-week program focused on AI-augmented professional development skills. The program covered practical applications of Artificial Intelligence, digital-age career skills, and how to leverage AI tools to boost productivity, creativity, and problem-solving in the modern workplace.
+              </p>
+              <div class="certificate-skills">
+                <span class="certificate-skill">AI & Machine Learning Fundamentals</span>
+                <span class="certificate-skill">Prompt Engineering & AI Tool Usage</span>
+                <span class="certificate-skill">Digital Collaboration & Productivity with AI</span>
+                <span class="certificate-skill">Critical Thinking & Problem-Solving in the AI Era</span>
+                <span class="certificate-skill">Creativity & Innovation using AI-powered tools</span>
+              </div>
+              
+                            <!-- Link to Cisco Certificate -->
+<div class="certificate-link">
+  <a href="ALX Essentials.png" target="_blank" class="view-certificate">
+    ALX AI Career Essentials Certificate
+  </a>
+</div>
+
+
+              <div class="certificate-date">
+                <span class="date-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </span>
+                <span>Issued: 5th November 2024. No Expiration</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificate 2 -->
+          <div class="certificate-card cyber-glass reveal-item">
+            <div class="certificate-image">
+              <div class="cyber-frame">
+                <img src="EmmanuelMagachi Jesse-Networking Essen-certificate (1)-1.png" alt="Networking Essentials Certificate" loading="lazy">
+                <div class="cyber-corner top-left"></div>
+                <div class="cyber-corner top-right"></div>
+                <div class="cyber-corner bottom-left"></div>
+                <div class="cyber-corner bottom-right"></div>
+              </div>
+            </div>
+            <div class="certificate-content">
+              <h3 class="certificate-title"> Networking Essentials Certificate</h3>
+              <div class="certificate-issuer">
+                <span class="issuer-logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <span>CISCO Networking Academy</span>
+              </div>
+              <p class="certificate-description">
+                This Cisco Networking Essentials certificate confirms that Emmanuel Magachi Jesse successfully completed the course, demonstrating proficiency in fundamental networking concepts. The certification covers topics such as network communication, IP addressing, LAN and wireless configurations, security best practices, and the use of Cisco devices. It validates the recipient’s ability to build and manage simple networks while understanding key networking principles and security measures.
+              </p>
+              <div class="certificate-skills">
+                <span class="certificate-skill">Network Configuration</span>
+                <span class="certificate-skill">IP Addressing & Management</span>
+                <span class="certificate-skill">Network Security</span>
+                <span class="certificate-skill">Troubleshooting & Network Protocols </span>
+                <span class="certificate-skill">Cisco IOS & Device Management</span>
+              </div>
+
+              
+              <!-- Link to Cisco Certificate -->
+<div class="certificate-link">
+  <a href="EmmanuelMagachi Jesse-Networking Essen-certificate (1).pdf" target="_blank" class="view-certificate">
+    Cisco Networking Essentials certificate
+  </a>
+</div>
+
+              <div class="certificate-date">
+                <span class="date-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </span>
+                <span>Issued:  2nd August 2023 • No Expiration</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificate 3 -->
+          <div class="certificate-card cyber-glass reveal-item">
+            <div class="certificate-image">
+              <div class="cyber-frame">
+                <img src="Networking_Basics_Badge20241128-25-6c71sr-1.png" alt="Cisco Networking Basics certificate" loading="lazy">
+                <div class="cyber-corner top-left"></div>
+                <div class="cyber-corner top-right"></div>
+                <div class="cyber-corner bottom-left"></div>
+                <div class="cyber-corner bottom-right"></div>
+              </div>
+            </div>
+            <div class="certificate-content">
+              <h3 class="certificate-title">Cisco Networking Basics</h3>
+              <div class="certificate-issuer">
+                <span class="issuer-logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <span>CISCO Networking Academy </span>
+              </div>
+              <p class="certificate-description">
+                This Cisco Networking Basics certificate confirms that Emmanuel Magachi Jesse has successfully completed the course, demonstrating proficiency in fundamental networking concepts. The certification covers essential topics such as network communication, IP addressing (IPv4 & IPv6), router configurations, troubleshooting network connectivity, and configuring integrated wireless routers. It validates the recipient’s ability to understand and apply key networking principles in real-world scenarios.
+              </p>
+              <div class="certificate-skills">
+                <span class="certificate-skill">Network Communication & Protocols</span>
+                <span class="certificate-skill">IP Addressing (IPv4 & IPv6)</span>
+                <span class="certificate-skill">Router & Wireless Configuration </span>
+                <span class="certificate-skill">Network Troubleshooting & Security</span>
+                <span class="certificate-skill">LAN & Ethernet Networking</span>
+              </div>
+
+
+              <!-- Link to Cisco Certificate -->
+<div class="certificate-link">
+  <a href="Networking_Basics_Badge20241128-25-6c71sr.pdf" target="_blank" class="view-certificate">
+    Cisco Networking Basics certificate
+  </a>
+</div>
+
+
+              <div class="certificate-date">
+                <span class="date-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </span>
+                <span>Issued: November 13, 2024 • No Expiration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+    
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-light section-with-indicator" data-section="testimonials">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image testimonials-bg"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">Client Feedback<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        
+        <!-- CSS-only Testimonial Carousel -->
+        <div class="testimonial-container reveal-bottom">
+          <input type="radio" name="testimonial-radio" id="testimonial1" checked>
+          <label for="testimonial1" class="visually-hidden">Testimonial </label>
+        
+          
+          <div class="testimonial-slides">
+            <!-- Testimonial  -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card cyber-glass">
+                <div class="testimonial-quote">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                  </svg>
+                </div>
+                <p class="testimonial-text">
+                  "I’ve had the pleasure of working alongside Emmanuel on several web development projects, and his expertise has been invaluable. Together, we've built platforms that are not only visually impressive but also user-friendly and performance-driven. His creativity and technical skills have consistently pushed our projects to the next level, and thanks to his input, we've seen a 300% increase in user engagement."
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar cyber-frame">
+                    <img src="vic.jpg" alt="Victor Karanja" loading="lazy">
+                  </div>
+                  <div class="testimonial-info">
+                    <h4>Victor Karanja</h4>
+                    <p>Senoir Web / App Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      
+     
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark section-with-indicator" data-section="contact">
+      <div class="section-bg-pattern"></div>
+      <div class="section-bg-image contact-bg"></div>
+      <div class="bg-gradient gradient-top-right"></div>
+      <div class="bg-gradient gradient-bottom-left"></div>
+      
+      <div class="container">
+        <h2 class="section-title reveal-title">Initialize Contact<span class="title-accent">_</span></h2>
+        <div class="section-title-underline"></div>
+        <div class="contact-container">
+          <div class="contact-info reveal-left cyber-glass">
+            <div class="contact-info-bg">
+              <div class="contact-circle circle-top-right"></div>
+              <div class="contact-circle circle-bottom-left"></div>
+            </div>
+            <div class="contact-info-content">
+              <h3 class="contact-title"><span class="accent-text">&lt;</span> Connect <span class="accent-text">/&gt;</h3>
+              <p class="contact-text">
+                Ready to bring your digital vision to life? Let's collaborate on creating cutting-edge solutions that push the boundaries of what's possible.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <span>emmanueljesseofficial6@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <span>(+254) 796070811 / 752089025</span>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <span>62000 - 00200 Nairobi, Kenya</span>
+                </div>
+              </div>
+              
+              <div class="social-links">
+                <h4>Digital Presence</h4>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/emmanuel-magachi-jesse-385011298/" class="social-icon" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/EmmanuelMJesse1" class="social-icon" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://x.com/EmmanuelMJesse" class="social-icon" title="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form reveal-right cyber-glass">
+            <h3 class="contact-title"><span class="accent-text">&lt;</span> Send Message <span class="accent-text">/&gt;</h3>
+            <form id="contact-form" class="css-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your name" required class="cyber-input">
+                  <span class="form-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Your email" required class="cyber-input">
+                  <span class="form-error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Subject" required class="cyber-input">
+                <span class="form-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your message" required class="cyber-input"></textarea>
+                <span class="form-error"></span>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-full cyber-btn" title="Send your message">
+                  <span></span><span></span><span></span><span></span>
+                 
+                  <span class="btn-loading">
+                    <svg class="spinner" viewBox="0 0 50 50">
+                      <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              
+
+    <!-- Footer -->
+    <footer class="footer cyber-bg">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#" class="footer-logo glitch" data-text="Emmanuel M Jesse">Emmanuel M Jesse</a>
+            <p class="footer-tagline">Full Stack Developer | Tech Innovator</p>
+          </div>
+       
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/emmanuel-magachi-jesse-385011298/" class="social-icon-footer" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://github.com/EmmanuelMJesse1" class="social-icon-footer" title="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <a href="https://x.com/EmmanuelMJesse" class="social-icon-footer" title="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year">2025</span> EMMANUEL MAGACHI JESSE. All rights reserved.</p>
+          <div class="cyber-badge">
+            <span class="badge-text">POWERED BY</span>
+            <span class="badge-highlight">CREATIVE HUB KENYA</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <a href="#" class="scroll-top cyber-btn-circle" aria-label="Scroll to top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 15l7-7 7 7" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- JavaScript for section transitions and indicators -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Update current year in footer
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      
+      // Section indicator functionality
+      const sections = document.querySelectorAll('.section-with-indicator');
+      const indicators = document.querySelectorAll('.indicator-dot');
+      
+      // Function to update active section
+      function updateActiveSection() {
+        const scrollPosition = window.scrollY + window.innerHeight / 3;
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('data-section');
+          
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            // Update indicators
+            indicators.forEach(dot => {
+              if (dot.getAttribute('data-section') === sectionId) {
+                dot.classList.add('active');
+              } else {
+                dot.classList.remove('active');
+              }
+            });
+          }
+        });
+      }
+      
+      // Initial call and scroll event listener
+      updateActiveSection();
+      window.addEventListener('scroll', updateActiveSection);
+      
+      // Click event for indicators
+      indicators.forEach(dot => {
+        dot.addEventListener('click', function() {
+          const targetSection = document.querySelector(`.section-with-indicator[data-section="${this.getAttribute('data-section')}"]`);
+          if (targetSection) {
+            window.scrollTo({
+              top: targetSection.offsetTop,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+      
+      // Custom cursor
+      const cursor = document.querySelector('.cursor-dot');
+      const cursorOutline = document.querySelector('.cursor-dot-outline');
+      
+      if (cursor && cursorOutline) {
+        document.addEventListener('mousemove', function(e) {
+          cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+          cursorOutline.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        });
+      }
+    });
+  </script>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.getElementById("theme-toggle");
+      const body = document.body;
+  
+      // Check if dark mode was previously set
+      if (localStorage.getItem("theme") === "dark") {
+        body.classList.add("dark-mode");
+        toggle.checked = true;
+      }
+  
+      toggle.addEventListener("change", function () {
+        if (toggle.checked) {
+          body.classList.add("dark-mode");
+          localStorage.setItem("theme", "dark");
+        } else {
+          body.classList.remove("dark-mode");
+          localStorage.setItem("theme", "light");
+        }
+      });
+    });
+  </script>
+  
+</body>
+</html>
+
