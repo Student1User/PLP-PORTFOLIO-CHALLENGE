@@ -305,7 +305,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Cyberpunk 2077 for design inspiration
+- CREATIVE HUB for design inspiration
 - [Unsplash](https://unsplash.com) for placeholder images
 - [Lucide Icons](https://lucide.dev) for SVG icons
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) and [Syne](https://fonts.google.com/specimen/Syne) fonts from Google Fonts
@@ -321,22 +321,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Hero Section
 
 
+![image](https://github.com/user-attachments/assets/cca515a9-e36b-4aaf-af63-40b145e7441e)
 
 
 
 ### About Section
 
 
+![image](https://github.com/user-attachments/assets/a07f4c67-4c54-4386-8b47-9f44523bd68a)
 
 
 
-Skills Section
+### Skills Section
+
+
+![image](https://github.com/user-attachments/assets/bd33fb61-bd53-46a6-bb62-3b157b565fbe)
 
 
 
-
-
-Projects Section
+### Projects Section
 
 ![image](https://github.com/user-attachments/assets/acd3b640-ee87-40ef-a90c-b0efd5a6c2ff)
 
@@ -344,7 +347,7 @@ Projects Section
 
 
 
- Contact Section
+### Contact Section
 
 ![image](https://github.com/user-attachments/assets/78ca5e33-4a16-4e33-970a-91a8e17e5fc9)
 
@@ -356,4 +359,4 @@ Projects Section
 
 ---
 
-Made with ❤️ by `<a href="https://github.com/Student1User">`Emmanuel M. Jesse`</a>`
+Made with ❤️ https://github.com/Student1User Emmanuel M. Jesse
